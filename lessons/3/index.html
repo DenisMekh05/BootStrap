@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./advanced/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <table class="table table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Cash</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Food</td>
+                    <td class="table-danger">-20$</td>
+                </tr>
+                <tr>
+                    <td>Salary</td>
+                    <td class="table-success">+400$</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button class="btn btn-primary">Add new</button>
+        <div class="inputs-box">
+            category
+            <input type="text" class="category">
+            cash
+            <input type="text" class="cash">
+            <button class="btn btn-danger">add</button>
+        </div>
+    </div>
+    <div class="note border-top border-primary">
+        <h1 class="text text-danger">A small note:</h1>
+        <p class="text text-danger">Place + or - before the cash value to make the table undertand your increasing</p>
+    </div>
+
+    <script src="./advanced/jQuery.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
