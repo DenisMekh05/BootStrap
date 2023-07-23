@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./advanced/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="alerts">
+        <div class="alert alert-danger user-exist">
+            <strong>user already exist</strong>
+        </div>
+        <div class="alert alert-warning no-username-password">
+            <strong>there is no username or password so fill all the inputs</strong>
+        </div>
+        <div class="alert alert-danger incorect-username-password">
+            <strong>you wrote the wrong username or password</strong>
+        </div>
+        <div class="alert alert-success registered">
+            <strong>you done registering now just login into your account</strong>
+        </div>
+    </div>
+    <div class="site">
+        <div class="register">
+            <h1>Register</h1>
+            <div class="inputs-box">
+                <form action="" class="form border">
+                    Username:
+                    <input type="text" required class="form-label register-username">
+                    Password:
+                    <input type="text" required class="form-label register-password">
+                    <button class="btn btn-primary btn-register">Register</button>
+                </form>
+                <button class="have-account btn">already have an account</button>
+            </div>
+        </div>
+        <div class="login hiden-thing">
+            <h1>Login</h1>
+            <div class="inputs-box">
+                <form action="" class="form border">
+                    Username:
+                    <input type="text" class="form-label login-username">
+                    Password:
+                    <input type="text" class="form-label login-password">
+                    <button class="btn btn-primary btn-login">Login</button>
+                </form>
+                <button class="didnt-register btn">didnt register</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./advanced/jQuery.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
