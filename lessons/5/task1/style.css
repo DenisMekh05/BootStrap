@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+}
+.accordions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75%;
+}
+.collaps{
+    border-bottom-right-radius: var(--bs-accordion-border-radius);
+    border-bottom-left-radius: var(--bs-accordion-border-radius)
+}

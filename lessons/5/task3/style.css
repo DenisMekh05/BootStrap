@@ -1,0 +1,24 @@
+body{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbox{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.searchbox{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+}
+.last-nav-box{
+    width: 50%;
+    display: flex;
+    gap: 1%;
+    justify-content: space-between;
+}
