@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../advanced/bootstrap.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <form class="w-25 mx-auto mt-5" novalidate>
+            <div class="alert alert-danger d-none">
+                <strong>Your username or password is wrong</strong>
+            </div>
+            <h1>Log in</h1>
+            <label class="form-label" for="name">Username</label>
+            <input class="form-control" id="name" type="text" required>
+            <div class="invalid-feedback">
+                Please type a username
+            </div>
+            <label class="form-label" for="password">Password</label>
+            <input class="form-control" type="text" required id="password">
+            <div class="invalid-feedback">
+                Please type a password
+            </div>
+            <button id="login" class="btn btn-primary mt-2 w-100">Log in</button>
+            <a href="../register/index.html">Don't have an account?</a>
+        </form>
+    </div>
+    <script src="../advanced/bootstrap.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

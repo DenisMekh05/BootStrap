@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../advanced/bootstrap.css">
+    <link rel="stylesheet" href="">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="w-25 mx-auto mt-5" novalidate>
+            <div class="alert alert-warning d-none">
+                <strong>User already exists, please choose another username</strong>
+            </div>
+            <h1>Register</h1>
+            <label class="form-label" for="name">Username</label>
+            <input class="form-control" id="name" type="text" required>
+            <div class="invalid-feedback">
+                Please chose a username
+            </div>
+            <label class="form-label" for="password">Password</label>
+            <input class="form-control" type="text" required id="password">
+            <div class="invalid-feedback">
+                Please choose a password
+            </div>
+            <button id="login" class="btn btn-success mt-2 w-100">Register</button>
+            <a href="../login/index.html">Have an account?</a>
+        </form>
+    </div>
+    <script src="../advanced/bootstrap.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
